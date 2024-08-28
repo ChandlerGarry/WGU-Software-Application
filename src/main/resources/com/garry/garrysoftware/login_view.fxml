@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0"
+      prefWidth="400.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="controller.LoginController">
+   <Button fx:id="loginButton" layoutX="175.0" layoutY="228.0" mnemonicParsing="false" text="Log In"/>
+   <TextField fx:id="usernameField" layoutX="126.0" layoutY="98.0" promptText="Username"/>
+   <TextField fx:id="passwordField" layoutX="126.0" layoutY="139.0" promptText="Password"/>
+   <Text fx:id="errorText" fill="RED" layoutX="49.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0"
+         text="Something went wrong when signing in. Please try again."/>
+   <Text fx:id="zoneIdText" layoutX="328.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="id"/>
+</Pane>
